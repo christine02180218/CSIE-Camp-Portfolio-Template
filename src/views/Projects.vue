@@ -27,13 +27,6 @@ const projects = [
         link: "https://github.com",
         tags: ["tag1", "tag2", "tag3"],
     },
-    {
-        name: "CUATRO",
-        description: "This is a project description. " + random_text(64),
-        image: "https://picsum.photos/640/320",
-        link: "https://github.com",
-        tags: ["tag1", "tag2", "tag3"],
-    },
 ];
 
 const step = ref(0);
