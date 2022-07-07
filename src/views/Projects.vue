@@ -7,28 +7,28 @@ import Fade from "../components/Fade.vue";
 
 const projects = [
     {
-        name: "製作個人網站？",
+        name: "UNA",
         description: "This is a project description. " + random_text(64),
-        image: "https://picsum.photos/640/320",
+        image: "https://pbblogassets.s3.amazonaws.com/uploads/2018/10/22074923/pink-sky-cover.jpg",
         link: "https://github.com",
         tags: ["tag1", "tag2", "tag3"],
     },
     {
-        name: "寫出 AI？",
+        name: "DOS",
         description: "This is a project description. " + random_text(64),
-        image: "https://picsum.photos/640/320",
+        image: "https://symbolsandsynchronicity.com/wp-content/uploads/2022/01/pink-sky-sunset-spiritual-meaning-omens.jpg",
         link: "https://github.com",
         tags: ["tag1", "tag2", "tag3"],
     },
     {
-        name: "學會 Linux？",
+        name: "TRES",
         description: "This is a project description. " + random_text(64),
-        image: "https://picsum.photos/640/320",
+        image: "https://i.pinimg.com/736x/d1/6c/ce/d16cce88fc07abde318734ccca2a8127.jpg",
         link: "https://github.com",
         tags: ["tag1", "tag2", "tag3"],
     },
     {
-        name: "做出桌布？",
+        name: "CUATRO",
         description: "This is a project description. " + random_text(64),
         image: "https://picsum.photos/640/320",
         link: "https://github.com",
@@ -72,6 +72,7 @@ watch(step, () => {
                         :tags="project.tags"
                     />
                 </Fade>
+                <img :src="project.image" />
             </div>
         </div>
     </div>
